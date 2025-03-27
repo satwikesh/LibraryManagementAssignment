@@ -9,8 +9,8 @@ public class BookRepositoryImpl implements BookRepository{
     private int noBooks;
 
     private final String url="jdbc:mysql://127.0.0.1:3306/libraryManagement";
-    private final  String user="root";
-    private final  String password="9247841118bunny";//Enter your password of mysql database here
+    private final  String user="your_mysql_username";//enter your mysql username
+    private final  String password="your_mysql_password";//Enter your password of mysql database here
 
     public BookRepositoryImpl() {
 
